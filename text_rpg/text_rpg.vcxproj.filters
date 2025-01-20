@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Player">
+      <UniqueIdentifier>{b16eed34-7cf7-4956-a0d7-3d177bc32443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Monster">
+      <UniqueIdentifier>{4d98f73b-4cbe-41ab-af65-d7c5d6fa84f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Monster\Slime">
+      <UniqueIdentifier>{1ab792fa-7e86-4371-ab5b-14ba40bae55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Monster\Golem">
+      <UniqueIdentifier>{6f03377f-95db-4ef3-9c0c-42572bf65f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Item">
+      <UniqueIdentifier>{3c11998c-b3d0-42af-aea0-5f9702d01e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Inven">
+      <UniqueIdentifier>{6d40fb24-6f45-412a-b773-4e7d528a25a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{be55823e-67b7-4fc1-abec-8c47377c7aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CObject">
+      <UniqueIdentifier>{aeee8427-63a8-4ec1-ab12-ba1ccd5c6aac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="text_rpg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CGolem.cpp">
+      <Filter>소스 파일\Monster\Golem</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlime.cpp">
+      <Filter>소스 파일\Monster\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventory.cpp">
+      <Filter>소스 파일\Inven</Filter>
+    </ClCompile>
+    <ClCompile Include="CCore.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>소스 파일\CObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPlayer.h">
+      <Filter>소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CGolem.h">
+      <Filter>소스 파일\Monster\Golem</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlime.h">
+      <Filter>소스 파일\Monster\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>소스 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CInventory.h">
+      <Filter>소스 파일\Inven</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>소스 파일\CObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CCore.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>소스 파일\Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
